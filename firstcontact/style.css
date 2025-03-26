@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+canvas {
+  display: block;
+}
+#message {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  display: none;
+  z-index: 10;
+}
+
